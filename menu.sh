@@ -79,7 +79,7 @@ Exp=$(curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/ip | grep $MY
 fi
 clear
 echo -e "${CYAN}╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m${NC}"
-echo -e " \E[0;41;36m     ⇱ AutoScript By KenmXV ⇲       \E[0m"
+echo -e " \E[0;41;36m     ⇱ AutoScript KenmXV ⇲       \E[0m"
 echo -e "${CYAN}╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m${NC}"
 echo -e "\e[36m[ SSH WebSocket : ON ]     [ XRAY : ON ] \033[0m"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
@@ -90,7 +90,7 @@ upminutes=`uptime -p | awk '{print $4,$5}' | cut -d , -f1`
 uptimecek=`uptime -p | awk '{print $6,$7}' | cut -d , -f1`
 cekup=`uptime -p | grep -ow "day"`
 IPVPS=$(curl -s ipinfo.io/ip )
-serverV=$( curl -sS https://raw.githubusercontent.com/bokir-tampan/test/main/versi)
+serverV=$( curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/versi)
 
 if [ "$cekup" = "day" ]; then
 echo    -e   "System Uptime   :  $uphours $upminutes $uptimecek"
@@ -124,10 +124,10 @@ echo -e " \E[0;41;36m               Settings MENU                \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m
  [\033[1;36m14\033[0m]  Add-host
  [\033[1;36m15\033[0m]  Gen SSL 
- [\033[1;36m16\033[0m]  Backup 
- [\033[1;36m17\033[0m]  Restore
+ [\033[1;36m16\033[0m]  Running Vps 
+ [\033[1;36m17\033[0m]  Speedtest
  [\033[1;36m18\033[0m]  Xol Panel Bot
-"
+ "
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
 echo -ne
 else
@@ -150,7 +150,7 @@ echo -e "\033[0;33mVersion : $(cat /opt/.ver) Update available to $serverV\e[0m"
 echo -e "\e[36m╒═════════════════════════════════════════════╕\033[0m"
 echo ""
 echo -e "[ \033[0;31mChangelog\033[0m ]"
-curl -sS https://raw.githubusercontent.com/bokir-tampan/biji/main/clgshow
+curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/clgshow
 echo -e "
 "
 fi
@@ -189,9 +189,9 @@ if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
     elif [[ $x -eq 15 ]]; then
        crtv2ray
     elif [[ $x -eq 16 ]]; then
-       bckp
+       running
     elif [[ $x -eq 17 ]]; then
-       restore
+       speedtest
      elif [[ $x -eq 18 ]]; then
        xolpanel
     else
@@ -235,9 +235,9 @@ else
     elif [[ $x -eq 15 ]]; then
        crtv2ray
     elif [[ $x -eq 16 ]]; then
-       bckp
+       running
     elif [[ $x -eq 17 ]]; then
-       restore
+       speedtest
      elif [[ $x -eq 18 ]]; then
        xolpanel
     else

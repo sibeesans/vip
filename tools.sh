@@ -9,10 +9,10 @@ red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 
 if [[ -e /etc/debian_version ]]; then
 	source /etc/os-release
-	OS=$ID # debian or ubuntu
-elif [[ -e /etc/centos-release ]]; then
+	OS=debian # debian or ubuntu
+elif [[ -e /etc/ubuntu-release ]]; then
 	source /etc/os-release
-	OS=centos
+	OS=ubuntu
 fi
 
 
