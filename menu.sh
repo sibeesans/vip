@@ -79,7 +79,7 @@ Exp=$(curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/ip | grep $MY
 fi
 clear
 echo -e "${CYAN}╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m${NC}"
-echo -e " \E[0;41;36m     ⇱ AutoScript KenmXV ⇲       \E[0m"
+echo -e " \E[0;41;36m     ⇱ AutoScript By Ridwan Project ⇲       \E[0m"
 echo -e "${CYAN}╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛\033[0m${NC}"
 echo -e "\e[36m[ SSH WebSocket : ON ]     [ XRAY : ON ] \033[0m"
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
@@ -127,6 +127,7 @@ echo -e "\e[36m╘════════════════════�
  [\033[1;36m16\033[0m]  Running Vps 
  [\033[1;36m17\033[0m]  Speedtest
  [\033[1;36m18\033[0m]  Xol Panel Bot
+ [\033[1;36m00\033[0m]  BETA VERSION DRG
  "
 if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
 echo -ne
@@ -179,11 +180,11 @@ if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
     elif [[ $x -eq 10 ]]; then
        add-ssws
     elif [[ $x -eq 11 ]]; then
-       cek-user
+       cek-ws
     elif [[ $x -eq 12 ]]; then
        del-user
     elif [[ $x -eq 13 ]]; then
-       renew-xray
+       renew-ws
     elif [[ $x -eq 14 ]]; then
        add-host
     elif [[ $x -eq 15 ]]; then
@@ -223,13 +224,11 @@ else
     elif [[ $x -eq 10 ]]; then
        add-ssws
     elif [[ $x -eq 11 ]]; then
-       cek-user
+       cek-ws
     elif [[ $x -eq 12 ]]; then
        del-user
     elif [[ $x -eq 13 ]]; then
-       renew-xray
-    elif [[ $x -eq 13 ]]; then
-       renew-xray
+       renew-ws
     elif [[ $x -eq 14 ]]; then
        add-host
     elif [[ $x -eq 15 ]]; then
