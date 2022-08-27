@@ -11,3 +11,5 @@
 * multi port 443/80 
 * fix grpc 
 * fix bug main ip 
+* fix cert 
+* add auto reboot GMT 7+
