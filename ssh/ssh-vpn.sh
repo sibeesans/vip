@@ -289,9 +289,6 @@ wget -O asu "https://raw.githubusercontent.com/kenDevXD/src/main/asu.sh"
 wget -O menu "https://raw.githubusercontent.com/kenDevXD/src/main/menu.sh"
 wget -O sshws "https://raw.githubusercontent.com/kenDevXD/src/main/ssh/sshws.sh"
 wget -O trial "https://raw.githubusercontent.com/kenDevXD/src/main/ssh/trial.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/kenDevXD/src/main/xray/cek-ws.sh
-wget -O about "https://raw.githubusercontent.com/kenDevXD/sc/main/ssh/about.sh" 
-wget -O running "https://raw.githubusercontent.com/kenDevXD/sc/main/ssh/running.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
@@ -304,9 +301,7 @@ chmod +x xp
 chmod +x asu
 chmod +x sshws
 chmod +x trial
-chmod +x cek-ws
-chmod +x about
-chmod +x running
+
 cd
 cd
 
