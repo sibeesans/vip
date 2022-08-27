@@ -16,3 +16,4 @@
 : OS Support Debian 10 & 9 atau • Ubuntu 18.04 & 20.04
 # Root Vps 
 * sudo su
+<pre><code>wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/kenDevXD/src/main/vpsroot.sh && bash vpsroot.sh
