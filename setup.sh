@@ -20,7 +20,7 @@ BURIQ () {
     done
     rm -f  /root/tmp
 }
-# https://raw.githubusercontent.com/kenDevXD/src/main/ip
+# https://raw.githubusercontent.com/apih46/access/main/ip 
 MYIP=$(curl -sS ipv4.icanhazip.com)
 Name=$(curl -sS https://raw.githubusercontent.com/kenDevXD/src/main/ip | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
@@ -120,7 +120,7 @@ if [ "" = "$PKG_OK" ]; then
   echo -e "[ ${tyblue}NOTES${NC} ] Proses rebooting"
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] Apakah Anda Ingin Mulai Menginstal Script"
-  echo -e "[ ${tyblue}NOTES${NC} ] Apakah Kamu Siap Mari Mulai Install"
+  echo -e "[ ${tyblue}NOTES${NC} ] Kalo Iyah Silahkan Tekan Enter"
   read
 else
   echo -e "[ ${green}INFO${NC} ] Install Berhasil"
@@ -198,7 +198,7 @@ fi
 
 echo ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      SCRIPT PRIVATE               $NC"
+echo -e "$green      SCRIPT KennXV               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
@@ -284,7 +284,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ SCRIPT PRIVATE KennXV ]-===================="
+echo "=====================-[ SCRIPT KennXV ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -326,7 +326,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ PRIVATE SCRIPT ]-==============="
+echo "===============-[ Script Created By KennXV ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
