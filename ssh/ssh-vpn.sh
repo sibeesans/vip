@@ -296,6 +296,8 @@ wget -O ssgrpc-menu "https://raw.githubusercontent.com/kenDevXD/vip/main/menu_al
 wget -O cek-ws "https://raw.githubusercontent.com/kenDevXD/src/main/xray/cek-ws.sh"
 wget -O about "https://raw.githubusercontent.com/kenDevXD/Mantap/main/ssh/about.sh" 
 wget -O running "https://raw.githubusercontent.com/kenDevXD/Mantap/main/ssh/running.sh"
+wget -O banner "https://raw.githubusercontent.com/kenDevXD/src/main/banner.sh"
+wget -O del-tr "https://raw.githubusercontent.com/kenDevXD/src/main/xray/del-tr.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
@@ -315,6 +317,8 @@ chmod +x ssgrpc-menu
 chmod +x cek-ws
 chmod +x about
 chmod +x running
+chmod +x banner
+chmod +x del-tr
 cd
 
 
