@@ -251,7 +251,7 @@ sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dr
 cat> /etc/issue.net << END
 <font color='red'>================================</font><br>
 <font color='blue'><b>         𝗞𝗲𝗻𝗻𝗫𝗩 - 𝗩𝗜𝗣 𝗦𝗘𝗥𝗩𝗘𝗥 - 𝗔𝗹𝗲𝘅𝘅𝗮         </b></font><br>
-<font color='green'><b>         Contact : t.me/aixxy7                    </b></font><br>
+<font color='green'><b>         Contact : bit.ly/aixxyme t.me/aixxy7                    </b></font><br>
 <font color='red'>================================</font>
 END
 
