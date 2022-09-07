@@ -326,7 +326,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By KennXV ]-==============="
+echo "===============-[ Script Created By Bgvpn ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
